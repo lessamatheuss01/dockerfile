@@ -13,16 +13,19 @@ services:
       - site3
 
   site1:
+    # Muda a descrição imagem para o nome do container que você criou
     image: matheuslessa/nginx:cor1
     networks:
       - rede-compose
 
   site2:
+    # Muda a descrição imagem para o nome do container que você criou
     image: matheuslessa/nginx:cor2
     networks:
       - rede-compose
 
   site3:
+    # Muda a descrição imagem para o nome do container que você criou
     image: matheuslessa/nginx:cor3
     networks:
       - rede-compose
